@@ -13,7 +13,8 @@
 <script>
   /* Atalho do App Comercial SIM. O app roda no Apps Script da SIM (login com a conta Google da SIM);
      aqui fica só o link e o ícone. Para mudar o destino, troque só a linha abaixo. */
-  var DESTINO = 'https://script.google.com/a/macros/simcombustiveis.com.br/s/AKfycbx-vqXyr6DYltveXMUnwiOTqDlV9_1wSCWbMpNHlX_mWPJyFQVgHX4s_HArDPtw4723/exec?app=1';
+  // implantação única (a do painel): o "?app=1" no fim abre o app
+  var DESTINO = 'https://script.google.com/a/macros/simcombustiveis.com.br/s/AKfycbxxV-RkRaZjMyGLcY3uZ093HEst31CfjAI_acJhXH7G0Z_7AVgZWH3YbJCgUC1tP1Kv/exec?app=1';
   // Aberto pelo ícone da tela inicial (?abrir=1): vai direto para o app.
   if (/[?&]abrir=1/.test(location.search)) location.replace(DESTINO);
 </script>
